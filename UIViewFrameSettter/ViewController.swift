@@ -26,7 +26,6 @@ class ViewController: UIViewController {
         button.addTarget(self, action: "buttonClick:", forControlEvents: UIControlEvents.TouchUpInside)
         button.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
         self.view.addSubview(button)
-        
     }
 
     func buttonClick(btn: UIButton) {
